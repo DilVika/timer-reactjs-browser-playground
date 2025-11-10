@@ -4,6 +4,20 @@ A diagnostic tool to observe and test JavaScript timer behavior (`setTimeout`, `
 
 This playground makes it easy to visualize the "drift" that occurs when a browser tab becomes inactive or the host system goes to sleep, demonstrating how timers are throttled or paused by the browser to conserve resources.
 
+## 🚀 Getting Started
+
+1.  **Install dependencies:**
+    ```bash
+    yarn install
+    ```
+
+2.  **Run the development server:**
+    ```bash
+    yarn start
+    ```
+
+3.  Open your browser to the URL provided by Vite.
+
 ## ✨ Core Features
 
 -   **📊 Real-time Metrics:** Instantly see the expected timer progress, the actual elapsed wall-clock time, and the "drift" between them.
@@ -11,14 +25,6 @@ This playground makes it easy to visualize the "drift" that occurs when a browse
 -   **👁️ Visibility Tracking:** Automatically logs when the browser tab becomes hidden, visible, or loses focus, helping correlate drift with tab state.
 -   **📜 Detailed Activity Log:** A comprehensive, timestamped log of all timer events, browser state changes, and significant drift detections.
 -   **⚙️ Configurable Duration:** Easily set the timer interval in milliseconds to test different scenarios.
-
-## 🚀 How to Use
-
-1.  **Set Duration:** In the "Timer Playground" card, enter the desired interval/timeout duration in milliseconds.
-2.  **Start a Timer:** Click **"Start Interval"** or **"Start Timeout"** to begin. The active timer button will turn yellow.
-3.  **Observe:** Watch the "Timer Time," "Actual Time," and "Drift" values update in real-time.
-4.  **Review Logs:** See a detailed breakdown of events in the "Activity Log" below.
-5.  **Reset:** Use the **"Stop / Reset"** button to clear the current timer and metrics.
 
 ## 🧪 Test Scenarios to Try
 
@@ -28,5 +34,7 @@ This playground makes it easy to visualize the "drift" that occurs when a browse
 ## 🛠️ Tools
 
 -   React 18
+-   Vite
+-   TypeScript
 -   Tailwind CSS
 -   Built with Google AI Studio
