@@ -1,0 +1,5 @@
+{
+  "name": "Browser Behavior Playground",
+  "description": "A proof-of-concept playground to test and observe JavaScript timer (setTimeout, setInterval) behavior under different browser conditions like tab inactivity or system sleep.",
+  "requestFramePermissions": []
+}
